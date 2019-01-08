@@ -67,9 +67,7 @@ O tambien pueden ir a la carpeta ``Tutoriales`` para explicacion detallada de ca
 Obtén ayuda o ayuda
 ~~~~~~~~~~~~~~~~~~~~~
 
-- hacer ping ** @ danny3s **, ** @ deivid** en el `NEO
-   Discord <https://discord.gg/R8v48YA>`_.
--  Or ping **@localhuman**, **@metachris** or **@ixje** on the `NEO
+-  hacer ping **@danny3s**, **@deivid** `NEO
    Discord <https://discord.gg/R8v48YA>`_.
 - Postea las solicitudes de bienvenida. Echa un vistazo a la lista de temas para las ideas.
    Puedes ayudar con la funcionalidad de billetera, escribiendo pruebas o documentación,

@@ -1,11 +1,9 @@
 
-<p align="center">
-  <img
-    src="https://res.cloudinary.com/latineo/image/upload/c_thumb,w_200,g_face/v1546981349/logo2.png"
-    width="125px;">
-</p>
+.. image:: https://res.cloudinary.com/latineo/image/upload/c_thumb,w_200,g_face/v1546981349/logo2.png
+    :alt: CoZ logo
 
-<h1 align="center">neo-python</h1>
+neo-python
+----------
 
 Nodo de Python y SDK para Blockchain de NEO
 
@@ -76,6 +74,13 @@ Obtén ayuda o ayuda
    o en cualquier otra característica que considere impresionante, solo escribenos a 
    ``latineo01@gmail.com``.
 
+
+OSX
+^^^
+
+::
+
+    brew install leveldb
 
 Empezando
 ---------------

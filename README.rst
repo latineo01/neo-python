@@ -169,11 +169,11 @@ Inicializa un contenedor de neo-privatenet y sigue estos pasos:
 
 
 
-# Descarga la versión mas reciente de Docker
-
-docker pull cityofzion/neo-python
-docker pull cityofzion/neo-privatenet
-
+``# Descarga la versión mas reciente de Docker``
+`` ``
+``docker pull cityofzion/neo-python``
+``docker pull cityofzion/neo-privatenet``
+`` ``
 # Inicializa el contenedor de red privada. Asigna el directorio de trabajo actual en el host a:
 # `/neo-python/sc/` and exposes the ports.
 docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp cityofzion/neo-privatenet

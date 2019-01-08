@@ -191,7 +191,6 @@ License
 
 -  Open-source
    `MIT <https://github.com/CityOfZion/neo-python/blob/master/LICENSE.md>`_.
--  Contributors: `@localhuman <https://github.com/localhuman>`_ (Creator), `@metachris <https://github.com/metachris>`_, `@ixje <https://github.com/ixje>`_, and `many more <https://github.com/CityOfZion/neo-python/graphs/contributors>`_
 
 Donations
 ---------

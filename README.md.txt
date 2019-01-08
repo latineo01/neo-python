@@ -176,12 +176,12 @@ Ejecutar NEo-Python
 
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
 
-```
 
-# Descarga la versión mas reciente de Docker
 
-docker pull cityofzion/neo-python
-docker pull cityofzion/neo-privatenet
+```# Descarga la versión mas reciente de Docker```
+``````
+```docker pull cityofzion/neo-python```
+```docker pull cityofzion/neo-privatenet```
 
 # Inicializa el contenedor de red privada. Asigna el directorio de trabajo actual en el host a:
 # `/neo-python/sc/` and exposes the ports.
@@ -192,28 +192,6 @@ docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo
 
 # Inicia Neo-Python en la red privada
 np-prompt -p``
-
-```
-
-Older Ubuntu versions (eg. 16.04)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-For older Ubuntu versions you'll need to use an external repository like
-Felix Krull's deadsnakes PPA at
-https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa (read more
-`here <https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get>`__).
-
-(The use of the third-party software links in this documentation is done
-at your own discretion and risk and with agreement that you will be
-solely responsible for any damage to your computer system or loss of
-data that results from such activities.)
-
-::
-
-    apt-get install software-properties-common python-software-properties
-    add-apt-repository ppa:deadsnakes/ppa
-    apt-get update
-    apt-get install python3.6 python3.6-dev python3.6-venv python3-pip libleveldb-dev libssl-dev g++
 
 
 License

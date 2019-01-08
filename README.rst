@@ -133,9 +133,7 @@ source venv/bin/activate
 
 
 2.	Instalar desde PyPi
-
-
-```
+--------
 
 # Crea la carpeta del proyecto
 mkdir myproject
@@ -153,7 +151,7 @@ source venv/bin/actívate
 virtualenv venv
 source venv/bin/activate
 
-```
+
 
 Docker
 --------
@@ -171,10 +169,10 @@ Inicializa un contenedor de neo-privatenet y sigue estos pasos:
 
 
 
-```# Descarga la versión mas reciente de Docker```
-``````
-```docker pull cityofzion/neo-python```
-```docker pull cityofzion/neo-privatenet```
+# Descarga la versión mas reciente de Docker
+
+docker pull cityofzion/neo-python
+docker pull cityofzion/neo-privatenet
 
 # Inicializa el contenedor de red privada. Asigna el directorio de trabajo actual en el host a:
 # `/neo-python/sc/` and exposes the ports.

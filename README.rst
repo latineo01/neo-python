@@ -180,7 +180,13 @@ docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333
 docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo-python cityofzion/neo-python /bin/bash
 
 # Inicia Neo-Python en la red privada
-np-prompt -p``
+np-prompt -p
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 
 License

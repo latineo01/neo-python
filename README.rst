@@ -68,7 +68,7 @@ Obtén ayuda o ayuda
 ~~~~~~~~~~~~~~~~~~~~~
 
 - hacer ping ** @ danny3s **, ** @ deivid** en el `NEO
-   Discord <https://discord.gg/R8v48YA> `_.
+   Discord <https://discord.gg/R8v48YA>`_
 - Postea las solicitudes de bienvenida. Echa un vistazo a la lista de temas para las ideas.
    Puedes ayudar con la funcionalidad de billetera, escribiendo pruebas o documentación,
    o en cualquier otra característica que considere impresionante, solo escribenos a 
@@ -83,7 +83,7 @@ neo-python tiene dos dependencias del sistema (todo lo demás está cubierto con
 
 -  `LevelDB <https://github.com/google/leveldb>`_
 -  `Python
-   3.6 <https://www.python.org/downloads/release/python-366/>`_ or `Python 3.7 <https://www.python.org/downloads/release/python-370/>`_ (3.5 and below is not supported)
+   3.6 <https://www.python.org/downloads/release/python-366/>`_ or `Python 3.7 <https://www.python.org/downloads/release/python-370/>`_ (3.5 e inferior no sirven)
 
 Hay muchos más videos debajo del
 `LatiNeo <https://www.youtube.com/channel/UC5xBCz4rBw-03zzjqX-WfpA?disable_polymer=true>` _

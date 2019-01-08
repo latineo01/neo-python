@@ -164,10 +164,11 @@ Comenzamos por instalar Docker con el siguiente comando:
 ``apt install docker.io``
 
 Ejecutar NEo-Python
-
-``
+--------
 
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
+
+```
 
 # Descarga la versión mas reciente de Docker
 
@@ -184,7 +185,8 @@ docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo
 # Inicia Neo-Python en la red privada
 np-prompt -p``
 
-``
+```
+
 
 License
 -------

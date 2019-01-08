@@ -112,17 +112,12 @@ Les recomiendo colocar todas las dependencias del proyecto en su propio entorno 
 1.	Instalar desde GitHub
 --------
 
-^^^^^^^^^^^^^^^^^^^^
-
-::
 git clone https://github.com/CityOfZion/neo-python.git
 cd neo-python
 
-::
 # Si deseas usar la rama de desarrollo, cambia a sino salta este paso
 git checkout development
 
-::
 # Crea un entorno virtual usando Python 3.7 y activarlo o saltar al siguiente paso si instalaste Python 3.6
 python3.7 -m venv venv
 source venv/bin/activate
@@ -138,24 +133,19 @@ source venv/bin/activate
 
 2.	Instalar desde PyPi
 --------
-^^^^^^^^^^^^^^^^^^^^
 
-::
 # Crea la carpeta del proyecto
 mkdir myproject
 cd myproject
 
-::
 # Crea un entorno virtual usando Python 3.7 y activarlo o saltar al siguiente paso si instalaste Python 3.6
 python3.7 -m venv venv
 source venv/bin/activate
 
-::
 # Crea un entorno virtual usando Python 3.6 y activarlo
 python3.6 -m venv venv
 source venv/bin/actívate
 
-::
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
@@ -174,23 +164,19 @@ Ejecutar NEo-Python
 --------
 
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
-^^^^^^^^^^^^^^^^^^^^
+
 # Descarga la versión mas reciente de Docker
 
-::
 docker pull cityofzion/neo-python
 docker pull cityofzion/neo-privatenet
 
-::
 # Inicializa el contenedor de red privada. Asigna el directorio de trabajo actual en el host a:
 # `/neo-python/sc/` and exposes the ports.
 docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333-30336:30333-30336/tcp cityofzion/neo-privatenet
 
-::
 # Inicializa el contenedor de Neo-Python
 docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo-python cityofzion/neo-python /bin/bash
 
-::
 # Inicia Neo-Python en la red privada
 np-prompt -p``
 

@@ -68,7 +68,7 @@ Obtén ayuda o ayuda
 ~~~~~~~~~~~~~~~~~~~~~
 
 - hacer ping ** @ danny3s **, ** @ deivid** en el `NEO
-   Discord <https://discord.gg/R8v48YA>`_
+   Discord <https://discord.gg/R8v48YA>`_.
 - Postea las solicitudes de bienvenida. Echa un vistazo a la lista de temas para las ideas.
    Puedes ayudar con la funcionalidad de billetera, escribiendo pruebas o documentación,
    o en cualquier otra característica que considere impresionante, solo escribenos a 
@@ -78,8 +78,8 @@ Obtén ayuda o ayuda
 Empezando
 ---------------
 
-neo-python tiene dos dependencias del sistema (todo lo demás está cubierto con
-`` pip``):
+neo-python tiene dos sistemas de dependencias (el resto se cube con
+``pip``):
 
 -  `LevelDB <https://github.com/google/leveldb>`_
 -  `Python

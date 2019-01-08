@@ -95,6 +95,7 @@ Yo realizare todo el tutorial dentro de un servidor en DigitalOceon ( no les hag
 ``sudo apt-get update && sudo apt-get upgrade``
 
 Primero vamos a instalar pip para poder instalar las dependencias de Python fácilmente y también virtualvenv que nos permite crear un entorno virtual para nuestro proyecto sin necesidad de corromper otras versiones en otros proyectos:
+
 ``apt install python-pip``
 ``apt install virtualenv``
 
@@ -111,7 +112,7 @@ Les recomiendo colocar todas las dependencias del proyecto en su propio entorno 
 1.	Instalar desde GitHub
 --------
 
-``
+^^^^^^^^^^^^^^^^^^^^
 
 git clone https://github.com/CityOfZion/neo-python.git
 cd neo-python
@@ -130,11 +131,11 @@ source venv/bin/actívate
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
-``
+^^^^^^^^^^^^^^^^^^^^
 
 2.	Instalar desde PyPi
 --------
-``
+^^^^^^^^^^^^^^^^^^^^
 # Crea la carpeta del proyecto
 mkdir myproject
 cd myproject
@@ -150,7 +151,7 @@ source venv/bin/actívate
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
-``
+^^^^^^^^^^^^^^^^^^^^
 
 Docker
 --------
@@ -165,8 +166,8 @@ Ejecutar NEo-Python
 --------
 
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
-
-``# Descarga la versión mas reciente de Docker
+^^^^^^^^^^^^^^^^^^^^
+# Descarga la versión mas reciente de Docker
 docker pull cityofzion/neo-python
 docker pull cityofzion/neo-privatenet
 
@@ -179,7 +180,7 @@ docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo
 
 # Inicia Neo-Python en la red privada
 np-prompt -p``
-
+^^^^^^^^^^^^^^^^^^^^
 
 
 License

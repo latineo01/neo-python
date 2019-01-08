@@ -161,9 +161,12 @@ Comenzamos por instalar Docker con el siguiente comando:
 
 ``apt install docker.io``
 
+Ejecutar NEo-Python
+--------
+
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
-``
-# Descarga la versión mas reciente de Docker
+
+``# Descarga la versión mas reciente de Docker
 docker pull cityofzion/neo-python
 docker pull cityofzion/neo-privatenet
 
@@ -175,8 +178,8 @@ docker run --rm -d --name neo-privatenet -p 20333-20336:20333-20336/tcp -p 30333
 docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo-python cityofzion/neo-python /bin/bash
 
 # Inicia Neo-Python en la red privada
-np-prompt -p
-``
+np-prompt -p``
+
 
 
 License

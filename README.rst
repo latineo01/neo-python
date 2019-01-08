@@ -111,8 +111,7 @@ Puedes instalar Python 3.6 y todas las dependencias del sistema como esta:
 Les recomiendo colocar todas las dependencias del proyecto en su propio entorno virtual, de esta manera no contaminamos la instalación global, lo que podría generar conflictos de versión.
 
 Instalar desde GitHub
-^^^^^^^^^^^^^^^^^^^^
-
+~~~~~~~
 ::
 
 	git clone https://github.com/CityOfZion/neo-python.git
@@ -135,7 +134,7 @@ Instalar desde GitHub
 
 
 Instalar desde PyPi
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~
 
 ::
 
@@ -166,11 +165,11 @@ Comenzamos por instalar Docker con el siguiente comando:
 
 ``apt install docker.io``
 
-Ejecutar NEo-Python
+Ejecutar Neo-Python
 --------
 
 Inicializa un contenedor de neo-privatenet y sigue estos pasos:
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~
 
 ::
 

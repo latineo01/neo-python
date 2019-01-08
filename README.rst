@@ -133,7 +133,8 @@ source venv/bin/activate
 
 2.	Instalar desde PyPi
 --------
-```sh
+
+```
 # Crea la carpeta del proyecto
 mkdir myproject
 cd myproject
@@ -191,4 +192,4 @@ License
 Donations
 ---------
 
-Accepted at **ATEMNPSjRVvsXmaJW4ZYJBSVuJ6uR2mjQU**
+Accepted at **AUxDFKAoWRg4SrKqYXF9jWy83SuPruEsbo**

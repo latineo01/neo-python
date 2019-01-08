@@ -75,13 +75,6 @@ Obtén ayuda o ayuda
    ``latineo01@gmail.com``.
 
 
-OSX
-^^^
-
-::
-
-    brew install leveldb
-
 Empezando
 ---------------
 

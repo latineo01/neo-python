@@ -85,9 +85,8 @@ neo-python tiene dos sistemas de dependencias (el resto se cube con
 -  `Python
    3.6 <https://www.python.org/downloads/release/python-366/>`_ or `Python 3.7 <https://www.python.org/downloads/release/python-370/>`_ (3.5 e inferior no sirven)
 
-Hay muchos más videos debajo del
-`LatiNeo <https://www.youtube.com/channel/UC5xBCz4rBw-03zzjqX-WfpA?disable_polymer=true>` _
-Canal de Youtube, para que lo visites.
+Hay muchos más videos en nuestro canal de 
+`LatiNeo <https://www.youtube.com/channel/UC5xBCz4rBw-03zzjqX-WfpA?disable_polymer=true>`_.
 
 
 Para este tutorial si eres un usuario Windows te recomiendo realizar los siguientes pasos en un servidor Ubuntu 16.04.5 x64 (les recomiendo digitaloceon o vultr que son baratos para realizar el tutorial) para que siempre tengas acceso al blockchain de NEO y no complicarte con las instalaciones directamente en Windows porque no sirve. Para los usuarios Linux y Mac si tienen la facilidad de instalarlo directamente en su computador sin ninguna dificultad.

@@ -129,11 +129,11 @@ source venv/bin/actívate
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
-^^^^^^^^^^^^^^^^^^^^
+
 
 2.	Instalar desde PyPi
 --------
-
+```sh
 # Crea la carpeta del proyecto
 mkdir myproject
 cd myproject
@@ -149,7 +149,7 @@ source venv/bin/actívate
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
-
+```
 
 Docker
 --------

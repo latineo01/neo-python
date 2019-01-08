@@ -135,6 +135,7 @@ source venv/bin/activate
 --------
 
 ```
+
 # Crea la carpeta del proyecto
 mkdir myproject
 cd myproject
@@ -150,13 +151,14 @@ source venv/bin/actívate
 # Si no te funciona los comandos anteriores puedes usar el siguiente
 virtualenv venv
 source venv/bin/activate
+
 ```
 
 Docker
 --------
 
 Antes de inicializar el blockchain de NEO debemos instalar una última cosa que es Docker. El software de TI de Docker es tecnología en contenedores que permite la creación y el uso de contenedores Linux.
- Vamos a usar uno en especifico que es creado por City Of Zion, donde nos proporionan una billetera con 100000000.0 NEO y 16024 GAS (falsos) para nuestras pruebas en el blockchain privado y en el tesnet. Lo cual nos facilita el desarrollo porque no necesitamos comprar o ni siquiera pedir a otros usuarios que nos envíen NEO o GAS para nuestros contractos inteligentes.
+Vamos a usar uno en especifico que es creado por City Of Zion, donde nos proporionan una billetera con 100000000.0 NEO y 16024 GAS (falsos) para nuestras pruebas en el blockchain privado y en el tesnet. Lo cual nos facilita el desarrollo porque no necesitamos comprar o ni siquiera pedir a otros usuarios que nos envíen NEO o GAS para nuestros contractos inteligentes.
 Comenzamos por instalar Docker con el siguiente comando:
 
 ``apt install docker.io``

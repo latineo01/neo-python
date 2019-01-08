@@ -81,9 +81,9 @@ Empezando
 neo-python tiene dos dependencias del sistema (todo lo demás está cubierto con
 `` pip``):
 
-- `LevelDB <https://github.com/google/leveldb>` _
-- `Python
-   3.6 <https://www.python.org/downloads/release/python-366/> `_ o` Python 3.7 <https://www.python.org/downloads/release/python-370/> `_ ( 3.5 y por debajo no es compatible)
+-  `LevelDB <https://github.com/google/leveldb>`_
+-  `Python
+   3.6 <https://www.python.org/downloads/release/python-366/>`_ or `Python 3.7 <https://www.python.org/downloads/release/python-370/>`_ (3.5 and below is not supported)
 
 Hay muchos más videos debajo del
 `LatiNeo <https://www.youtube.com/channel/UC5xBCz4rBw-03zzjqX-WfpA?disable_polymer=true>` _

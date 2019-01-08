@@ -182,11 +182,11 @@ docker run --rm -it --net=host -v $(pwd):/neo-python/sc -h neo-python --name neo
 # Inicia Neo-Python en la red privada
 np-prompt -p
 
-```ruby
+``ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-```
+``
 
 
 License
